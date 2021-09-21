@@ -1,0 +1,36 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:755ca95a-b07e-455f-afb0-733fd602d5ac -->
+<metadata name="TEST_View" path="/shared/Baiju/TEST_View" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="AMS_x0020_Description" nullable="true">
+      <datatype type="STRING" maxLength="256"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation><![CDATA[&lt;![CDATA[ffff]]&gt;]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/Baiju/PSQL_DS/public/vcs_fetc" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT AMS Description FROM /shared/Baiju/PSQL_DS/&quot;public&quot;/vcs_fetc
+</attribute>
+  <attribute name="creationDate" type="LONG">1625833308127</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/Baiju/PSQL_DS/public/vcs_fetc&apos;.  On line 1, column 29.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1632185928399</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1625833308127</attribute>
+</metadata>
