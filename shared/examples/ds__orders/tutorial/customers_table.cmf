@@ -1,5 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<!-- salt:dc85220e-b489-4201-ac6d-8018a640a6e8 -->
+<!-- salt:4bcc129c-4bc5-4464-be8c-63320c5b8b84 -->
 <metadata name="customers" path="/shared/examples/ds_orders/tutorial/customers" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
   <columns>
     <column name="customerid" nullable="false">
@@ -97,7 +97,7 @@
   <attribute name="creatorUserDomain" type="STRING"/>
   <attribute name="creatorUserName" type="STRING"/>
   <attribute name="i:0:indexSchema" type="STRING">tutorial</attribute>
-  <attribute name="lastModifiedDate" type="LONG">1632292398121</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1632292514210</attribute>
   <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
   <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
   <attribute name="selectionState" type="INTEGER">2</attribute>
