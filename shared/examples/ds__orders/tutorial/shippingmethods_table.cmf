@@ -1,5 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<!-- salt:8dfc8c44-7f17-4660-8cc5-50e063b652fe -->
+<!-- salt:dc85220e-b489-4201-ac6d-8018a640a6e8 -->
 <metadata name="shippingmethods" path="/shared/examples/ds_orders/tutorial/shippingmethods" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
   <columns>
     <column name="shippingmethodid" nullable="false">
@@ -37,5 +37,8 @@
   <attribute name="creatorUserDomain" type="STRING"/>
   <attribute name="creatorUserName" type="STRING"/>
   <attribute name="i:0:indexSchema" type="STRING">tutorial</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1632292398121</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
   <attribute name="selectionState" type="INTEGER">2</attribute>
 </metadata>
