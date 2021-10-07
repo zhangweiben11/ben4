@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<!-- salt:c619e423-f08b-4da1-96c3-3ca7c59c00f6 -->
+<!-- salt:1744300b-d56d-4b8e-a067-0bba75da4513 -->
 <metadata name="ds_inventory" path="/shared/examples/ds_inventory" type="DATA_SOURCE" subtype="RELATIONAL" changeToken="0">
-  <annotation><![CDATA[sample data source]]></annotation>
+  <annotation><![CDATA[sample data sourcesss]]></annotation>
   <security>
     <owner user="admin" domain="composite"/>
     <privilege group="all" domain="composite" privileges="READ EXECUTE SELECT"/>
@@ -28,8 +28,9 @@
   <attribute name="dataShipTempTablePrefix" type="STRING">T</attribute>
   <attribute name="driverName" type="STRING">PostgreSQL 9.1</attribute>
   <attribute name="execTimeout" type="INTEGER">0</attribute>
+  <attribute name="healthmonitortable" type="STRING">cis_hm_table</attribute>
   <attribute name="isPassThrough" type="STRING">Disabled</attribute>
-  <attribute name="lastModifiedDate" type="LONG">1633579489042</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1633581621873</attribute>
   <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
   <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
   <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
